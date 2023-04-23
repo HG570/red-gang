@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="img/redstone.png">
+    
+    <title>Redstone Gang</title>
+     
+    <!--Menu NavBar-->
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-black" style="z-index:999;">
+      <div class="container-fluid col-11 m-auto">
+        <a class="navbar-brand" href="#">Redstone Gang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#influ">Influenciadores</a>
+            <a class="nav-link" href="#conteudo">Gangue</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+</head>
+<body>
+  <!--Carrousel-->
+  <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/redgang.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/redgang2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/redgang3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+
+  <!--Cards-->
+  <h2 id="influ" class="text-center">Influenciadores</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+  <div class="col">
+      <div class="card">
+      <img src="img/vini13.png" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Viniccius13</h5>
+          <p class="card-text">Paulo Viniccius Santos Ferraz , mais conhecido pelo seu nome virtual Viniccius13, é um YouTuber e profissional do Minecraft brasileiro. Nasceu em 1993 no norte de Minas Gerais. É o criador e um dos apresentadores...</p>
+
+          <!-- início código Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Ver mais...
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Viniccius 13</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/vini13.png" class="card-img-top" alt="...">
+                  <p class="card-text">Paulo Viniccius Santos Ferraz , mais conhecido pelo seu nome virtual  Viniccius13 , é um YouTuber e profissional do Minecraft brasileiro. Nasceu em 1993 no norte de Minas Gerais. É o criador e um dos apresentadores da série Em Busca da Casa Automática, além de ser um dos fundadores, junto com ForeverPlayer, da Redstone Gang, um grupo de jogadores profissionais de Minecraft que é conhecido principalmente pelo uso de redstone em suas construções. Está no YouTube há mais de dez anos, e tem atualmente mais de 5 milhões de inscritos em seu canal.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  <div class="col">
+      <div class="card">
+      <img src="img/forever.png" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5 class="card-title">Forever Player</h5>
+          <p class="card-text">Francisco Miguel, mais conhecido como Forever Player, é um jogador profissional de Minecraft já consolidado no Youtube nacional. Conhecido por fazer desafios "humanamente impossíveis", foi um dos responsáveis...</p>
+
+          <!-- início código Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Ver mais...
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Forever Player</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/forever.png" class="card-img-top" alt="...">
+                  <p class="card-text">Francisco Miguel, mais conhecido como Forever Player, é um jogador profissional de Minecraft já consolidado no Youtube nacional. Conhecido por fazer desafios "humanamente impossíveis", foi um dos responsáveis pelo início da RedstoneGang junto de Vinnicius13.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="col">
+    <div class="card">
+    <img src="img/davi.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Davi Gamer</h5>
+        <p class="card-text">Davi Freitas, mais conhecido como DaviGamerHD ou simplesmente Davi é um dos apresentadores e participantes da série Em Busca da Casa Automática. Nasceu em 1998 no estado de São Paulo, e é...</p>
+
+        <!-- início código Modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+          Ver mais...
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Davi Gamer</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/davi.png" class="card-img-top" alt="...">
+                <p class="card-text">Davi Freitas, mais conhecido como DaviGamerHD ou simplesmente Davi é um dos apresentadores e participantes da série Em Busca da Casa Automática. Nasceu em 1998 no estado de São Paulo, e é companheiro de Viniccius13 desde o primeiro episódio da série e está junto dele na maioria deles. Está no YouTube há mais ou menos oito anos, e tem atualmente mais de 2 milhão de inscritos em seu canal. É famoso por ser o participante da série com o maior número de mortes, contando com mais de duzentas. Também é conhecido por ter tido uma série de brigas com Napoleon nos primeiros episódios da série e por causa de uma piada regional interna.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+  
+  <!--Conteúdo-->
+  <br><br>
+  <hr class="col-11 m-auto"/>
+  <div id="conteudo" class="col-11 m-auto">
+      <h2 class="text-center">Redstone Gang</h2>
+      <p class="text-center">A Redstone Gang (Gangue da Redstone) é um grupo de YouTubers e professional players de Minecraft brasileiros, do qual Viniccius13 faz parte. É composta totalmente por jogadores que usam redstone em quase todas as suas construções. Renomada e conhecida nacionalmente, a gangue já teve até mesmo uma série homônima. Fundada pelo famoso youtuber brasileiro Viniccius13 e Forever Player, a Redstone Gang é conhecida por suas habilidades em construções complexas e sofisticadas, especialmente aquelas que envolvem o uso de redstone, um material que permite a criação de sistemas de circuitos eletrônicos dentro do jogo.          
+      </p>
+  </div>
+  <hr class="col-11 m-auto"/>
+  <br><br>
+
+  <!--Rodapé-->
+  <footer id ="footer" class="page-footer p-5 col-11 m-auto"
+      style="background-color: #000000;">
+    <div class="text-center">
+        <a href="#">@2023 Copyright: Rafael Pinheiro</a>
+    </div>
+  </footer>
+</body>
+</html>
